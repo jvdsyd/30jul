@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "example9" {
   name     = "newrg9"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "example10" {
+  name     = "newrg10"
+  location = "West Europe"
+}
