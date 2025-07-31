@@ -3,22 +3,3 @@ resource "azurerm_resource_group" "example5" {
   location = "West Europe"
 }
 
-resource "azurerm_resource_group" "example6" {
-  name     = "newrg1"
-  location = "West Europe"
-}
-
-resource "azurerm_resource_group" "example7" {
-  name     = "newrg2"
-  location = "West Europe"
-}
-
-resource "azurerm_resource_group" "example9" {
-  name     = "newrg9"
-  location = "West Europe"
-}
-
-resource "azurerm_resource_group" "example10" {
-  name     = "newrg10"
-  location = "West Europe"
-}
