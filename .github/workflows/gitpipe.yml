@@ -10,7 +10,7 @@ on:
 jobs:
   terraformInit:
     name: terraform init
-    runs-on: javed-runner
+    runs-on: Javed-runner
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
