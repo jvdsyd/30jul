@@ -1,0 +1,19 @@
+name: "my first github actions pipeline"
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+      - 'main'
+      - 'hotfix/**'
+
+jobs:
+  terraformInit:
+    name: terraform init
+    runs-on: javed-runner
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: kuch bhi!
+        run: echo "mera first pipeline"
