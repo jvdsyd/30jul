@@ -1,4 +1,4 @@
-name: "Javeds first worklow"
+name: "Javeds first workflow"
 
 on:
   push:
@@ -12,13 +12,11 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: "first job ka msg print karna"
-        run: echo Hello Bhai, maine github actions pe fist job create kiya
-        
-   my_second_workflow:
-     name: "my second job in github actions"
-     runs-on: self-hosted
-     steps:
-       - name: "bhai, ye wala second job hai sirf test kar rha hu
-       run: echo kya haal hai bhai, ye dusra job create kar rha hu 
+        run: echo "Hello Bhai, maine github actions pe first job create kiya"
 
-       
+  my_second_workflow:
+    name: "my second job in github actions"
+    runs-on: self-hosted
+    steps:
+      - name: "bhai, ye wala second job hai sirf test kar rha hu"
+        run: echo "kya haal hai bhai, ye dusra job create kar rha hu"
