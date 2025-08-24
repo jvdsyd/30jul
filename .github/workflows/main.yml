@@ -3,7 +3,7 @@ name: "Javeds first workflow"
 on:
   push:
     branches:
-      - main
+      - 'main'
       - 'feature/**'
 
 jobs:
@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: "first job ka msg print karna"
         run: echo "Hello Bhai, maine github actions pe first job create kiya"
+
 
   my_second_workflow:
     name: "my second job in github actions"
