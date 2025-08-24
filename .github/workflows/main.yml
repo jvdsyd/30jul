@@ -1,0 +1,16 @@
+name: "Javeds first worklow"
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'feature/**'
+
+jobs:
+  my_first_workflow:
+    name: "first job"
+    runs-on: javed
+    steps:
+      - name: "first job ka msg print karna"
+        run: echo Hello Bhai, maine github actions pe fist job create kiya
+        
