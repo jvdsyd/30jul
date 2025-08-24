@@ -9,7 +9,7 @@ on:
 jobs:
   my_first_workflow:
     name: "first job"
-    runs-on: javed
+    runs-on: self-hosted
     steps:
       - name: "first job ka msg print karna"
         run: echo Hello Bhai, maine github actions pe fist job create kiya
