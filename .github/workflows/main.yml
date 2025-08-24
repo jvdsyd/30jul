@@ -18,7 +18,7 @@ jobs:
      name: "my second job in github actions"
      runs-on: self-hosted
      steps:
-       -name: "bhai, ye wala second job hai sirf test kar rha hu
+       - name: "bhai, ye wala second job hai sirf test kar rha hu
        run: echo kya haal hai bhai, ye dusra job create kar rha hu 
 
        
